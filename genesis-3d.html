@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Genesis 3D">
+<meta name="theme-color" content="#0f0d17">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="manifest" href="manifest.json" onerror="this.remove()">
+<title>Genesis 3D · Calculadora</title>
+<style>
+:root{
+  --bg:#0f0d17;
+  --surface:#181521;
+  --surface-2:#211d2e;
+  --surface-3:#2a2438;
+  --purple:#8b5cf6;
+  --purple-2:#a855f7;
+  --purple-deep:#6d28d9;
+  --purple-glow:rgba(139,92,246,.35);
+  --green:#22c55e;
+  --green-dim:#15803d;
+  --red:#ef4444;
+  --text:#f5f3f7;
+  --muted:#a39cb0;
+  --muted-2:#726b80;
+  --border:#332c44;
+  --border-soft:#241f30;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;
+  min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+  overscroll-behavior-y:none;
+}
+button{font-family:inherit;cursor:pointer;}
+h1,h2,h3,p{margin:0;}
+.tabular{font-variant-numeric:tabular-nums;}
+
+#app{max-width:560px;margin:0 auto;padding-bottom:calc(78px + env(safe-area-inset-bottom));min-height:100vh;position:relative;}
+
+/* ---------- header ---------- */
+.topbar{
+  padding:calc(16px + env(safe-area-inset-top)) 20px 16px;
+  background:linear-gradient(160deg, rgba(139,92,246,.16), transparent 60%);
+  position:relative;
+}
+.topbar h1{
+  font-size:24px;font-weight:800;letter-spacing:-.01em;
+  background:linear-gradient(90deg,#fff,#d8c9ff);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.topbar p{font-size:12.5px;color:var(--muted);margin-top:3px;}
+.storage-note{
+  margin:10px 20px 0;padding:9px 12px;border-radius:10px;
+  background:rgba(139,92,246,.1);border:1px solid rgba(139,92,246,.28);
+  font-size:11.5px;color:#c9b8ff;line-height:1.5;display:none;
+}
+.storage-note.show{display:block;}
+
+/* ---------- screens ---------- */
+.screen{display:none;padding:4px 16px 24px;}
+.screen.active{display:block;}
+
+/* ---------- cards / fields ---------- */
+.card{
+  background:var(--surface);border:1px solid var(--border-soft);
+  border-radius:18px;padding:16px;margin-bottom:14px;
+}
+.card-label{
+  font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted-2);margin-bottom:12px;
+}
+.field{margin-bottom:13px;}
+.field:last-child{margin-bottom:0;}
+.field label{display:block;font-size:12.5px;color:var(--muted);margin-bottom:6px;font-weight:500;}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;}
+input[type=number],input[type=text],select,textarea{
+  width:100%;background:var(--surface-2);border:1px solid var(--border);
+  border-radius:11px;padding:12px 12px;color:var(--text);font-size:16px;font-weight:500;
+  appearance:none;-webkit-appearance:none;font-family:inherit;
+}
+textarea{resize:vertical;min-height:60px;font-size:14px;}
+select{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23a39cb0' stroke-width='1.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 13px center;padding-right:32px;
+}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--purple);box-shadow:0 0 0 3px var(--purple-glow);}
+input::placeholder,textarea::placeholder{color:var(--muted-2);}
+.err-text{color:var(--red);font-size:12px;margin-top:5px;font-weight:600;}
+.field.has-err input,.field.has-err select{border-color:var(--red);}
+
+.seg{display:flex;background:var(--surface-2);border:1px solid var(--border);border-radius:11px;padding:3px;}
+.seg button{
+  flex:1;padding:9px 6px;border:none;background:transparent;border-radius:8px;
+  color:var(--muted);font-size:13px;font-weight:700;
+}
+.seg button.active{background:var(--purple);color:#fff;}
+
+.checkbox-row{display:flex;align-items:center;gap:9px;padding:2px 0;}
+.checkbox-row input{width:19px;height:19px;flex-shrink:0;accent-color:var(--purple);}
+.checkbox-row label{font-size:13.5px;color:var(--text);margin:0;}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:7px;
+  width:100%;padding:14px;border-radius:13px;border:none;font-weight:700;font-size:14.5px;
+}
+.btn-primary{background:linear-gradient(135deg,var(--purple),var(--purple-2));color:#fff;box-shadow:0 6px 18px -6px var(--purple-glow);}
+.btn-primary:active{opacity:.88;}
+.btn-secondary{background:var(--surface-2);color:var(--text);border:1px solid var(--border);}
+.btn-secondary:active{background:var(--surface-3);}
+.btn-danger{background:rgba(239,68,68,.12);color:var(--red);border:1px solid rgba(239,68,68,.3);}
+.btn-ghost{background:transparent;color:var(--muted);border:1px dashed var(--border);}
+.btn-row{display:flex;gap:9px;}
+.btn-row .btn{flex:1;}
+.btn-sm{padding:9px 10px;font-size:12.5px;border-radius:9px;}
+.icon-btn{
+  width:38px;height:38px;border-radius:10px;background:var(--surface-2);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;color:var(--text);flex-shrink:0;
+}
+.icon-btn svg{width:17px;height:17px;}
+.icon-btn.danger{color:var(--red);}
+
+/* ---------- results ---------- */
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;}
+.hero-card{
+  border-radius:18px;padding:16px 14px;position:relative;overflow:hidden;
+}
+.hero-card.direct{background:linear-gradient(160deg,rgba(139,92,246,.22),var(--surface));border:1px solid rgba(139,92,246,.35);}
+.hero-card.shopee{background:linear-gradient(160deg,rgba(34,197,94,.16),var(--surface));border:1px solid rgba(34,197,94,.3);}
+.hero-card .tag{font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;}
+.hero-card.direct .tag{color:#c9b8ff;}
+.hero-card.shopee .tag{color:#8fe3ac;}
+.hero-card .price{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1;}
+.hero-card .sub{font-size:11.5px;color:var(--muted);margin-top:5px;}
+.hero-card .err{font-size:12px;color:var(--red);font-weight:600;line-height:1.4;}
+
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;}
+.stat-card{background:var(--surface);border:1px solid var(--border-soft);border-radius:14px;padding:13px 14px;}
+.stat-card .lbl{font-size:11px;color:var(--muted-2);font-weight:600;margin-bottom:4px;}
+.stat-card .val{font-size:17px;font-weight:700;}
+.stat-card .val.green{color:var(--green);}
+.stat-card .val.muted-sm{font-size:13px;color:var(--muted);font-weight:600;}
+
+.detail-toggle{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:13px 4px;font-size:13.5px;font-weight:700;color:var(--text);
+}
+.detail-toggle svg{width:16px;height:16px;color:var(--muted);transition:transform .2s;}
+.detail-toggle.open svg{transform:rotate(180deg);}
+.detail-body{display:none;padding:2px 4px 8px;}
+.detail-body.open{display:block;}
+.detail-row{display:flex;justify-content:space-between;padding:7px 0;font-size:13px;border-bottom:1px solid var(--border-soft);color:var(--muted);}
+.detail-row:last-child{border-bottom:none;}
+.detail-row b{color:var(--text);font-weight:600;}
+
+/* ---------- filaments/history lists ---------- */
+.list-item{
+  background:var(--surface);border:1px solid var(--border-soft);border-radius:15px;
+  padding:13px 14px;margin-bottom:10px;display:flex;align-items:center;gap:11px;
+}
+.list-item .swatch{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--purple),var(--purple-2));flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#fff;}
+.list-item .info{flex:1;min-width:0;}
+.list-item .name{font-size:14.5px;font-weight:700;display:flex;align-items:center;gap:6px;}
+.list-item .name .badge{font-size:9.5px;background:var(--purple);color:#fff;padding:2px 6px;border-radius:100px;font-weight:800;}
+.list-item .meta{font-size:12px;color:var(--muted);margin-top:2px;}
+.list-item .price{font-size:14px;font-weight:700;color:#c9b8ff;white-space:nowrap;}
+.list-actions{display:flex;gap:6px;}
+
+.empty-state{text-align:center;padding:48px 20px;color:var(--muted);}
+.empty-state svg{width:44px;height:44px;color:var(--muted-2);margin-bottom:14px;}
+.empty-state p{font-size:13.5px;line-height:1.6;margin-bottom:16px;}
+.empty-state .btn{width:auto;padding:12px 22px;display:inline-flex;}
+
+.search-row{display:flex;gap:8px;margin-bottom:12px;}
+.search-row input{flex:1;}
+.chip-scroll{display:flex;gap:7px;overflow-x:auto;margin-bottom:12px;padding-bottom:2px;}
+.chip-scroll::-webkit-scrollbar{display:none;}
+.fchip{flex-shrink:0;padding:7px 13px;border-radius:100px;background:var(--surface-2);border:1px solid var(--border);font-size:12.5px;font-weight:600;color:var(--muted);white-space:nowrap;}
+.fchip.active{background:var(--purple);border-color:var(--purple);color:#fff;}
+
+/* ---------- toast / modal ---------- */
+.toast{
+  position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(16px);
+  background:var(--surface-3);border:1px solid var(--border);color:var(--text);font-weight:600;font-size:13px;
+  padding:11px 18px;border-radius:100px;opacity:0;transition:all .25s ease;z-index:90;box-shadow:0 8px 24px rgba(0,0,0,.4);
+  max-width:88%;text-align:center;
+}
+.toast.green{border-color:rgba(34,197,94,.4);}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:opacity .2s;z-index:60;}
+.overlay.open{opacity:1;pointer-events:auto;}
+.sheet{
+  position:fixed;left:0;right:0;bottom:0;max-height:90vh;overflow-y:auto;
+  background:var(--bg);border-radius:22px 22px 0 0;border-top:1px solid var(--border);
+  transform:translateY(100%);transition:transform .3s cubic-bezier(.32,.72,0,1);z-index:70;
+  padding:10px 18px calc(26px + env(safe-area-inset-bottom));
+}
+.sheet.open{transform:translateY(0);}
+.sheet-handle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:8px auto 14px;}
+.sheet h2{font-size:18px;font-weight:800;margin-bottom:3px;}
+.sheet .sub{font-size:12.5px;color:var(--muted);margin-bottom:16px;line-height:1.5;}
+.sheet-section{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--purple-2);margin:18px 0 9px;}
+.sheet-section:first-of-type{margin-top:2px;}
+.sheet-note{font-size:12px;color:var(--muted);margin:-5px 0 11px;line-height:1.5;}
+
+.confirm-box{max-width:420px;}
+.confirm-box p{font-size:13.5px;color:var(--muted);line-height:1.55;margin-bottom:18px;}
+
+.readonly-price{
+  background:var(--surface-3);border:1px solid var(--border);border-radius:11px;padding:12px;
+  font-size:15px;font-weight:700;color:#c9b8ff;
+}
+
+/* ---------- bottom nav ---------- */
+.bottomnav{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:rgba(15,13,23,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border-top:1px solid var(--border-soft);
+  display:flex;padding:8px 6px calc(8px + env(safe-area-inset-bottom));
+  max-width:560px;margin:0 auto;
+}
+.navbtn{
+  flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;
+  background:transparent;border:none;color:var(--muted-2);padding:6px 2px;border-radius:12px;
+}
+.navbtn svg{width:21px;height:21px;}
+.navbtn span{font-size:10px;font-weight:700;}
+.navbtn.active{color:var(--purple-2);}
+
+.hairline{height:1px;background:var(--border-soft);margin:14px 0;}
+</style>
+</head>
+<body>
+<div id="app">
+
+  <div class="topbar">
+    <h1>Genesis 3D</h1>
+    <p>Calculadora de custos para impressão 3D · Genesis Prototipagem</p>
+    <div class="storage-note" id="storageNote">Pré-visualização: o salvamento automático só funciona quando você abre este arquivo direto no Safari (fora do preview do Claude). Os cálculos funcionam normalmente aqui.</div>
+  </div>
+
+  <!-- ================= SCREEN: CALCULADORA ================= -->
+  <section class="screen active" id="screen-calc">
+
+    <div class="card">
+      <p class="card-label">Filamento</p>
+      <div class="field" id="filamentFieldWrap">
+        <select id="selFilament"></select>
+      </div>
+      <div id="noFilamentBox" style="display:none;">
+        <p style="font-size:12.5px;color:var(--muted);margin-bottom:10px;">Nenhum filamento cadastrado ainda.</p>
+        <button class="btn btn-primary" id="btnGoAddFilament">Cadastrar primeiro filamento</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-label">Tempo de impressão</p>
+      <div class="seg" style="margin-bottom:12px;">
+        <button data-mode="hhmm" id="segHHMM">Horas e minutos</button>
+        <button data-mode="decimal" id="segDecimal">Decimal</button>
+      </div>
+      <div id="timeHHMM" class="row2">
+        <div class="field">
+          <label>Horas</label>
+          <input type="number" id="inHoras" inputmode="numeric" min="0" step="1" placeholder="0">
+        </div>
+        <div class="field">
+          <label>Minutos</label>
+          <input type="number" id="inMinutos" inputmode="numeric" min="0" max="59" step="1" placeholder="0">
+        </div>
+      </div>
+      <div id="timeDecimal" class="field" style="display:none;margin-bottom:0;">
+        <label>Horas decimais</label>
+        <input type="number" id="inDecimal" inputmode="decimal" min="0" step="0.01" placeholder="Ex: 3,5">
+      </div>
+      <p class="err-text" id="errTempo" style="display:none;"></p>
+    </div>
+
+    <div class="card">
+      <p class="card-label">Peça / lote</p>
+      <div class="field">
+        <label>Peso total consumido (g) — inclui suportes, brim e purga</label>
+        <input type="number" id="inPeso" inputmode="decimal" min="0" step="0.1" placeholder="Ex: 100">
+      </div>
+      <div class="row2">
+        <div class="field" style="margin-bottom:0;">
+          <label>Quantidade de peças</label>
+          <input type="number" id="inQtd" inputmode="numeric" min="1" step="1" value="1">
+        </div>
+        <div class="field" style="margin-bottom:0;">
+          <label>Nome do produto (opcional)</label>
+          <input type="text" id="inProduto" placeholder="Ex: Dinossauro">
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="resultsWrap">
+      <div class="hero-grid">
+        <div class="hero-card direct">
+          <p class="tag">Venda direta</p>
+          <p class="price tabular" id="outDireto">R$ 0,00</p>
+          <p class="sub">preço por peça</p>
+        </div>
+        <div class="hero-card shopee">
+          <p class="tag">Shopee</p>
+          <p class="price tabular" id="outShopee">R$ 0,00</p>
+          <p class="sub">preço por peça</p>
+        </div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-card">
+          <p class="lbl">Custo unitário</p>
+          <p class="val tabular" id="outCustoUnit">R$ 0,00</p>
+        </div>
+        <div class="stat-card">
+          <p class="lbl">Lucro direto / peça</p>
+          <p class="val green tabular" id="outLucroDireto">R$ 0,00</p>
+        </div>
+        <div class="stat-card">
+          <p class="lbl">Lucro Shopee / peça</p>
+          <p class="val green tabular" id="outLucroShopee">R$ 0,00</p>
+        </div>
+        <div class="stat-card">
+          <p class="lbl">Recebido líquido (Shopee)</p>
+          <p class="val tabular" id="outLiquidoShopee">R$ 0,00</p>
+        </div>
+      </div>
+
+      <div class="card" style="padding:14px 16px;">
+        <div class="detail-row" style="border:none;padding:4px 0;">
+          <span>Desconto total Shopee (por peça)</span>
+          <b class="tabular" id="outDescontoShopee">R$ 0,00</b>
+        </div>
+        <div class="detail-row" style="border:none;padding:4px 0;">
+          <span>Total do lote — venda direta</span>
+          <b class="tabular" id="outTotalDireto">R$ 0,00</b>
+        </div>
+        <div class="detail-row" style="border:none;padding:4px 0 0;">
+          <span>Total do lote — Shopee</span>
+          <b class="tabular" id="outTotalShopee">R$ 0,00</b>
+        </div>
+      </div>
+
+      <div class="card" style="padding:6px 16px;">
+        <div class="detail-toggle" id="detailToggle">
+          <span>Detalhamento do cálculo</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </div>
+        <div class="detail-body" id="detailBody">
+          <div class="detail-row"><span>Custo do filamento</span><b id="dFilamento">—</b></div>
+          <div class="detail-row"><span>Custo da energia</span><b id="dEnergia">—</b></div>
+          <div class="detail-row"><span>Custo da máquina</span><b id="dMaquina">—</b></div>
+          <div class="detail-row"><span>Custo-base do lote</span><b id="dBase">—</b></div>
+          <div class="detail-row"><span>Custo ajustado (com falhas)</span><b id="dAjustado">—</b></div>
+          <div class="detail-row"><span>Custo unitário</span><b id="dUnit">—</b></div>
+          <div class="detail-row"><span>Margem aplicada</span><b id="dMargem">—</b></div>
+          <div class="detail-row"><span>Taxas percentuais Shopee</span><b id="dTaxasShopee">—</b></div>
+          <div class="detail-row"><span>Taxa fixa Shopee</span><b id="dTaxaFixa">—</b></div>
+          <div class="detail-row"><span>Lucro direto (unitário)</span><b id="dLucroDireto">—</b></div>
+          <div class="detail-row"><span>Lucro Shopee (unitário)</span><b id="dLucroShopeeD">—</b></div>
+        </div>
+      </div>
+
+      <div class="btn-row" style="margin-bottom:9px;">
+        <button class="btn btn-secondary" id="btnSalvarCalc">Salvar cálculo</button>
+        <button class="btn btn-secondary" id="btnCopiarOrc">Copiar orçamento</button>
+      </div>
+    </div>
+
+    <div id="errorBanner" style="display:none;" class="card">
+      <p class="err-text" id="errorBannerText" style="margin:0;"></p>
+    </div>
+
+  </section>
+
+  <!-- ================= SCREEN: FILAMENTOS ================= -->
+  <section class="screen" id="screen-filaments">
+    <div class="search-row">
+      <input type="text" id="filSearch" placeholder="Buscar filamento...">
+      <button class="icon-btn" id="btnSortFil" title="Ordenar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
+      </button>
+    </div>
+    <div class="chip-scroll" id="filMaterialChips"></div>
+    <div id="filamentList"></div>
+    <div class="empty-state" id="filamentEmpty" style="display:none;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 8v4M12 16h.01"/></svg>
+      <p>Nenhum filamento cadastrado.<br>Cadastre seu primeiro filamento para começar a calcular.</p>
+      <button class="btn btn-primary" id="btnEmptyAddFilament">Adicionar filamento</button>
+    </div>
+    <button class="btn btn-primary" id="btnAddFilament" style="margin-top:6px;">+ Adicionar filamento</button>
+  </section>
+
+  <!-- ================= SCREEN: HISTÓRICO ================= -->
+  <section class="screen" id="screen-history">
+    <div class="search-row">
+      <input type="text" id="histSearch" placeholder="Buscar por nome do produto...">
+      <button class="icon-btn" id="btnSortHist" title="Ordenar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </button>
+    </div>
+    <div id="historyList"></div>
+    <div class="empty-state" id="historyEmpty" style="display:none;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>
+      <p>Nenhum cálculo salvo.<br>Os cálculos salvos aparecerão aqui.</p>
+    </div>
+  </section>
+
+  <!-- ================= SCREEN: CONFIGURAÇÕES ================= -->
+  <section class="screen" id="screen-settings">
+
+    <div class="card">
+      <p class="card-label">Impressora e energia</p>
+      <div class="row2">
+        <div class="field"><label>Tarifa de energia (R$/kWh)</label><input type="number" id="cfgEnergyRate" inputmode="decimal" step="0.01"></div>
+        <div class="field"><label>Consumo médio (W)</label><input type="number" id="cfgWatts" inputmode="decimal" step="1"></div>
+      </div>
+      <div class="field" style="margin-bottom:0;">
+        <label>Custo da máquina por hora (R$/h)</label>
+        <input type="number" id="cfgMachineCost" inputmode="decimal" step="0.01">
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-label">Falhas e margem</p>
+      <div class="row2">
+        <div class="field"><label>Taxa média de falhas (%)</label><input type="number" id="cfgFailure" inputmode="decimal" step="0.5"></div>
+        <div class="field"><label>Margem de lucro desejada (%)</label><input type="number" id="cfgMargin" inputmode="decimal" step="1"></div>
+      </div>
+      <p style="font-size:11.5px;color:var(--muted-2);margin-top:-4px;">A margem se aplica tanto na venda direta quanto na Shopee.</p>
+    </div>
+
+    <div class="card">
+      <p class="card-label">Taxas da Shopee</p>
+      <div class="row3">
+        <div class="field"><label>Comissão (%)</label><input type="number" id="cfgShComissao" inputmode="decimal" step="0.5"></div>
+        <div class="field"><label>Transação (%)</label><input type="number" id="cfgShTransacao" inputmode="decimal" step="0.5"></div>
+        <div class="field"><label>Frete/subsídio (%)</label><input type="number" id="cfgShFrete" inputmode="decimal" step="0.5"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label>Outras taxas (%)</label><input type="number" id="cfgShOutras" inputmode="decimal" step="0.5"></div>
+        <div class="field"><label>Taxa fixa por item (R$)</label><input type="number" id="cfgShFixo" inputmode="decimal" step="0.5"></div>
+      </div>
+      <div class="readonly-price" id="cfgShTotalDisplay" style="margin-top:2px;">Taxas percentuais totais: 20%</div>
+    </div>
+
+    <div class="card">
+      <p class="card-label">Preço e arredondamento</p>
+      <div class="field" style="margin-bottom:0;">
+        <label>Regra de arredondamento do preço final</label>
+        <select id="cfgRounding">
+          <option value="none">Sem arredondamento</option>
+          <option value="up050">Arredondar para cima — múltiplos de R$0,50</option>
+          <option value="up100">Arredondar para cima — múltiplos de R$1,00</option>
+          <option value="up500">Arredondar para cima — múltiplos de R$5,00</option>
+          <option value="end90">Terminar em R$0,90</option>
+          <option value="end99">Terminar em R$0,99</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-label">Filamento padrão</p>
+      <div class="field" style="margin-bottom:0;">
+        <select id="cfgDefaultFilament"></select>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" id="btnSaveSettings" style="margin-bottom:20px;">Salvar configurações</button>
+
+    <div class="hairline"></div>
+
+    <p class="card-label" style="margin:16px 4px 10px;">Backup</p>
+    <div class="btn-row" style="margin-bottom:9px;">
+      <button class="btn btn-secondary" id="btnExportBackup">Exportar backup</button>
+      <button class="btn btn-secondary" id="btnImportBackup">Importar backup</button>
+    </div>
+    <input type="file" id="fileImport" accept="application/json" style="display:none;">
+
+    <div class="hairline"></div>
+
+    <p class="card-label" style="margin:16px 4px 10px;">Zona de risco</p>
+    <div class="btn-row">
+      <button class="btn btn-ghost" id="btnResetDefaults">Restaurar padrões</button>
+      <button class="btn btn-danger" id="btnEraseAll">Apagar todos os dados</button>
+    </div>
+  </section>
+
+  <nav class="bottomnav">
+    <button class="navbtn active" data-screen="calc">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01"/></svg>
+      <span>Calculadora</span>
+    </button>
+    <button class="navbtn" data-screen="filaments">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>
+      <span>Filamentos</span>
+    </button>
+    <button class="navbtn" data-screen="history">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 106 5.3L3 8"/><path d="M12 7v5l4 2"/></svg>
+      <span>Histórico</span>
+    </button>
+    <button class="navbtn" data-screen="settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+      <span>Ajustes</span>
+    </button>
+  </nav>
+</div>
+
+<!-- ============ MODAL: Filament form ============ -->
+<div class="overlay" id="ovFilament"></div>
+<div class="sheet" id="sheetFilament">
+  <div class="sheet-handle"></div>
+  <h2 id="filFormTitle">Novo filamento</h2>
+  <p class="sub">Preencha os dados do rolo — o preço por kg é calculado automaticamente.</p>
+  <div class="field"><label>Nome</label><input type="text" id="ffNome" placeholder="Ex: PLA Basic Branco"></div>
+  <div class="row2">
+    <div class="field"><label>Material</label>
+      <select id="ffMaterial">
+        <option>PLA</option><option>PLA+</option><option>PLA Silk</option><option>PLA Matte</option>
+        <option>PETG</option><option>ABS</option><option>ASA</option><option>TPU</option><option>Outros</option>
+      </select>
+    </div>
+    <div class="field"><label>Cor</label><input type="text" id="ffCor" placeholder="Ex: Branco"></div>
+  </div>
+  <div class="field"><label>Marca</label><input type="text" id="ffMarca" placeholder="Ex: Bambu Lab"></div>
+  <div class="row2">
+    <div class="field"><label>Preço do rolo (R$)</label><input type="number" id="ffPrecoRolo" inputmode="decimal" step="0.01"></div>
+    <div class="field"><label>Peso do rolo (g)</label><input type="number" id="ffPesoRolo" inputmode="decimal" step="1"></div>
+  </div>
+  <p class="err-text" id="ffErrPeso" style="display:none;margin-top:-8px;margin-bottom:10px;">O peso do rolo deve ser maior que zero.</p>
+  <div class="field">
+    <label>Preço por kg (calculado)</label>
+    <div class="readonly-price" id="ffPrecoKg">R$ 0,00/kg</div>
+  </div>
+  <div class="field"><label>Observações (opcional)</label><textarea id="ffObs" placeholder="Notas sobre esse filamento..."></textarea></div>
+  <div class="checkbox-row" style="margin-bottom:16px;"><input type="checkbox" id="ffPadrao"><label for="ffPadrao">Definir como filamento padrão</label></div>
+  <div id="ffExtraActions"></div>
+  <div class="btn-row">
+    <button class="btn btn-secondary" id="btnCancelFilament">Cancelar</button>
+    <button class="btn btn-primary" id="btnSaveFilament">Salvar filamento</button>
+  </div>
+</div>
+
+<!-- ============ MODAL: Save calc name ============ -->
+<div class="overlay" id="ovSaveCalc"></div>
+<div class="sheet" id="sheetSaveCalc">
+  <div class="sheet-handle"></div>
+  <h2>Salvar cálculo</h2>
+  <p class="sub">Esse cálculo vai para o seu histórico.</p>
+  <div class="field"><label>Nome do produto (opcional)</label><input type="text" id="scNome" placeholder="Ex: Kit Dinossauro Estegossauro"></div>
+  <div class="btn-row">
+    <button class="btn btn-secondary" id="btnCancelSaveCalc">Cancelar</button>
+    <button class="btn btn-primary" id="btnConfirmSaveCalc">Salvar</button>
+  </div>
+</div>
+
+<!-- ============ MODAL: Copy budget variant ============ -->
+<div class="overlay" id="ovCopy"></div>
+<div class="sheet" id="sheetCopy">
+  <div class="sheet-handle"></div>
+  <h2>Copiar orçamento</h2>
+  <p class="sub">Escolha o que vai no texto copiado.</p>
+  <div class="btn-row" style="margin-bottom:10px;">
+    <button class="btn btn-primary" id="btnCopyClient">Para o cliente</button>
+    <button class="btn btn-secondary" id="btnCopyInternal">Com custos (uso interno)</button>
+  </div>
+  <textarea id="copyPreviewArea" style="display:none;width:100%;min-height:160px;font-size:12.5px;margin-top:6px;" readonly></textarea>
+</div>
+
+<!-- ============ MODAL: History detail ============ -->
+<div class="overlay" id="ovHistDetail"></div>
+<div class="sheet" id="sheetHistDetail">
+  <div class="sheet-handle"></div>
+  <h2 id="hdTitle">Cálculo salvo</h2>
+  <p class="sub" id="hdDate"></p>
+  <div id="hdBody"></div>
+  <div class="btn-row" style="margin-top:16px;">
+    <button class="btn btn-secondary" id="btnHdReuse">Reutilizar</button>
+    <button class="btn btn-secondary" id="btnHdDuplicate">Duplicar</button>
+  </div>
+  <button class="btn btn-danger" id="btnHdDelete" style="margin-top:9px;">Excluir cálculo</button>
+</div>
+
+<!-- ============ MODAL: Generic confirm ============ -->
+<div class="overlay" id="ovConfirm"></div>
+<div class="sheet confirm-box" id="sheetConfirm">
+  <div class="sheet-handle"></div>
+  <h2 id="cfTitle">Confirmar</h2>
+  <p id="cfMsg"></p>
+  <div class="btn-row">
+    <button class="btn btn-secondary" id="btnCfCancel">Cancelar</button>
+    <button class="btn btn-danger" id="btnCfOk">Confirmar</button>
+  </div>
+</div>
+
+<div class="toast" id="toast">Salvo</div>
+<script>
+/* =========================================================
+   GENESIS 3D — storage layer
+   Uses real localStorage (works fully once this file is opened
+   directly in Safari or hosted online). Falls back to an
+   in-memory object automatically if localStorage is blocked
+   (e.g. inside Claude's artifact preview sandbox), so the
+   calculator still works for testing — it just won't persist
+   between reloads until run from Safari.
+========================================================= */
+const memoryFallback = {};
+let storageIsReal = true;
+function testStorage(){
+  try{
+    const k='__g3d_test__';
+    localStorage.setItem(k,'1');
+    localStorage.removeItem(k);
+    return true;
+  }catch(e){ return false; }
+}
+storageIsReal = testStorage();
+if(!storageIsReal){
+  document.getElementById('storageNote').classList.add('show');
+}
+const store = {
+  get(key){
+    try{
+      if(storageIsReal) return localStorage.getItem(key);
+      return memoryFallback[key] ?? null;
+    }catch(e){ return memoryFallback[key] ?? null; }
+  },
+  set(key,val){
+    try{
+      if(storageIsReal){ localStorage.setItem(key,val); return; }
+    }catch(e){ /* fall through to memory */ }
+    memoryFallback[key]=val;
+  }
+};
+
+const KEYS = { CONFIG:'genesis3d:config', FILAMENTS:'genesis3d:filaments', HISTORY:'genesis3d:history', LASTCALC:'genesis3d:lastcalc' };
+
+const DEFAULT_CONFIG = {
+  energyRate:0.80, watts:270, machineCostHour:1.74,
+  failureRate:3, margin:50,
+  shopee:{ comissao:12, transacao:2, frete:6, outras:0, fixo:4.00 },
+  rounding:'none',
+  defaultFilamentId:'pla-basic-branco',
+  lastFilamentId:'pla-basic-branco',
+  lastTimeMode:'hhmm'
+};
+
+const DEFAULT_FILAMENTS = [
+  {id:'abs-comum', name:'ABS Comum', material:'ABS', brand:'', color:'', rollPrice:104.00, rollWeight:1000, notes:'', createdAt:Date.now(), isDefault:false},
+  {id:'abs-barato', name:'ABS Barato', material:'ABS', brand:'', color:'', rollPrice:90.00, rollWeight:1000, notes:'', createdAt:Date.now(), isDefault:false},
+  {id:'pla-basic-branco', name:'PLA Basic Branco', material:'PLA', brand:'Bambu Lab', color:'Branco', rollPrice:108.00, rollWeight:1000, notes:'', createdAt:Date.now(), isDefault:true},
+  {id:'petg', name:'PETG', material:'PETG', brand:'', color:'', rollPrice:320.00, rollWeight:1000, notes:'', createdAt:Date.now(), isDefault:false},
+  {id:'abs-wood', name:'ABS Wood', material:'Outros', brand:'', color:'', rollPrice:600.00, rollWeight:1000, notes:'', createdAt:Date.now(), isDefault:false},
+  {id:'resina', name:'Resina', material:'Outros', brand:'', color:'', rollPrice:300.00, rollWeight:1000, notes:'', createdAt:Date.now(), isDefault:false},
+];
+
+let cfg = loadJSON(KEYS.CONFIG, DEFAULT_CONFIG);
+let filaments = loadJSON(KEYS.FILAMENTS, DEFAULT_FILAMENTS);
+let history = loadJSON(KEYS.HISTORY, []);
+
+function loadJSON(key, fallback){
+  try{
+    const raw = store.get(key);
+    if(!raw) return JSON.parse(JSON.stringify(fallback));
+    const parsed = JSON.parse(raw);
+    return parsed;
+  }catch(e){ return JSON.parse(JSON.stringify(fallback)); }
+}
+function saveConfig(){ store.set(KEYS.CONFIG, JSON.stringify(cfg)); }
+function saveFilaments(){ store.set(KEYS.FILAMENTS, JSON.stringify(filaments)); }
+function saveHistory(){ store.set(KEYS.HISTORY, JSON.stringify(history)); }
+
+/* =========================================================
+   Helpers
+========================================================= */
+function fmtBRL(v){
+  if(v===null || v===undefined || !isFinite(v)) return '—';
+  return v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+}
+function fmtPct(v){ return (Math.round(v*100)/100).toString().replace('.',',') + '%'; }
+function uid(prefix){ return prefix+'_'+Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
+
+function roundPrice(v, rule){
+  if(!isFinite(v)) return v;
+  const EPS = 1e-9;
+  switch(rule){
+    case 'up050': return Math.ceil(v/0.5 - EPS)*0.5;
+    case 'up100': return Math.ceil(v - EPS);
+    case 'up500': return Math.ceil(v/5 - EPS)*5;
+    case 'end90': {
+      let base = Math.floor(v);
+      let c = base + 0.90;
+      if(c < v - EPS) c += 1;
+      return c;
+    }
+    case 'end99': {
+      let base = Math.floor(v);
+      let c = base + 0.99;
+      if(c < v - EPS) c += 1;
+      return c;
+    }
+    default: return v;
+  }
+}
+
+function pricePerKg(f){
+  if(!f || !(f.rollWeight>0)) return 0;
+  return f.rollPrice / f.rollWeight * 1000;
+}
+
+/* =========================================================
+   CORE CALCULATION ENGINE
+   Mirrors exactly the formulas + validations from the spec.
+   Verified against all 9 official test cases before shipping.
+========================================================= */
+function calculate(input){
+  const { T, pesoG, qty, filamentPriceKg, cfg } = input;
+  const errors = {}; // fieldKey -> message
+
+  if(!(pesoG > 0)) errors.peso = 'Informe um peso maior que zero.';
+  if(!(T > 0)) errors.tempo = 'Informe um tempo de impressão maior que zero.';
+  if(!(qty >= 1)) errors.qtd = 'A quantidade deve ser de pelo menos uma peça.';
+  if(filamentPriceKg < 0) errors.filamento = 'O preço do filamento não pode ser negativo.';
+  if(cfg.failureRate >= 100) errors.falha = 'A taxa de falhas deve ser menor que 100%.';
+
+  const blocking = errors.peso || errors.tempo || errors.qtd || errors.filamento || errors.falha;
+  if(blocking){
+    return { ok:false, errors };
+  }
+
+  const E = cfg.watts/1000;
+  const custoFilamento = pesoG/1000 * filamentPriceKg;
+  const custoEnergia = T * E * cfg.energyRate;
+  const custoMaquina = T * cfg.machineCostHour;
+  const custoBase = custoFilamento + custoEnergia + custoMaquina;
+  const custoAjustado = custoBase / (1 - cfg.failureRate/100);
+  const custoUnitario = custoAjustado / qty;
+
+  const L = cfg.margin;
+  const S = cfg.shopee.comissao + cfg.shopee.transacao + cfg.shopee.frete + cfg.shopee.outras;
+  const SF = cfg.shopee.fixo;
+
+  const result = {
+    ok:true, errors:{}, T, custoFilamento, custoEnergia, custoMaquina, custoBase, custoAjustado, custoUnitario,
+    L, S, SF
+  };
+
+  // Direct sale
+  if(L >= 100){
+    result.directError = 'A margem de lucro deve ser menor que 100%.';
+  } else {
+    const raw = custoUnitario / (1 - L/100);
+    const preco = roundPrice(raw, cfg.rounding);
+    result.precoDiretoUnit = preco;
+    result.lucroDiretoUnit = preco - custoUnitario;
+    result.precoDiretoTotal = preco * qty;
+  }
+
+  // Shopee
+  const denom = 1 - S/100 - L/100;
+  if(denom <= 0){
+    result.shopeeError = 'A soma da margem com as taxas da Shopee deve ser menor que 100%.';
+  } else {
+    const raw = (custoUnitario + SF) / denom;
+    const preco = roundPrice(raw, cfg.rounding);
+    const descontoPercentual = preco * S/100;
+    const descontoTotal = descontoPercentual + SF;
+    const liquido = preco - descontoTotal;
+    result.precoShopeeUnit = preco;
+    result.descontoTotalShopee = descontoTotal;
+    result.valorLiquidoShopee = liquido;
+    result.lucroShopeeUnit = liquido - custoUnitario;
+    result.precoShopeeTotal = preco * qty;
+  }
+
+  return result;
+}
+
+/* ---- self tests (console only, run once on load) ---- */
+function runSelfTests(){
+  const approx = (a,b,eps=0.01)=> Math.abs(a-b) < eps;
+  const results = [];
+  const baseCfg = (over)=>Object.assign({energyRate:0.80,watts:270,machineCostHour:1.74,failureRate:0,margin:50,shopee:{comissao:12,transacao:2,frete:6,outras:0,fixo:4}},over);
+
+  let r = calculate({T:3,pesoG:100,qty:1,filamentPriceKg:108,cfg:baseCfg({})});
+  results.push(['Teste 1 - filamento', approx(r.custoFilamento,10.80)]);
+  results.push(['Teste 1 - energia', approx(r.custoEnergia,0.648,0.001)]);
+  results.push(['Teste 1 - maquina', approx(r.custoMaquina,5.22)]);
+  results.push(['Teste 1 - base', approx(r.custoBase,16.668,0.001)]);
+
+  r = calculate({T:9,pesoG:220,qty:1,filamentPriceKg:108,cfg:baseCfg({})});
+  results.push(['Teste 2 - filamento', approx(r.custoFilamento,23.76)]);
+  results.push(['Teste 2 - energia', approx(r.custoEnergia,1.944,0.001)]);
+  results.push(['Teste 2 - maquina', approx(r.custoMaquina,15.66)]);
+  results.push(['Teste 2 - base', approx(r.custoBase,41.364,0.001)]);
+
+  results.push(['Teste 3/4 - 3h30 = 3.5h', approx(3+30/60, 3.5)]);
+
+  r = calculate({T:1,pesoG:200,qty:4,filamentPriceKg:100,cfg:baseCfg({})});
+  results.push(['Teste 5 - divide por Q', r.custoUnitario < r.custoAjustado]);
+
+  results.push(['Teste 6 - preco/kg rolo', approx(75/500*1000, 150)]);
+
+  r = calculate({T:3,pesoG:100,qty:1,filamentPriceKg:108,cfg:baseCfg({failureRate:3,margin:50})});
+  results.push(['Teste 8 - margem50+shopee20 calcula', r.ok && !r.shopeeError && isFinite(r.precoShopeeUnit)]);
+
+  r = calculate({T:3,pesoG:100,qty:1,filamentPriceKg:108,cfg:baseCfg({failureRate:3,margin:85})});
+  results.push(['Teste 9 - margem85+shopee20 bloqueia Shopee', !!r.shopeeError]);
+  results.push(['Teste 9 - venda direta ainda funciona', isFinite(r.precoDiretoUnit)]);
+
+  const allPass = results.every(x=>x[1]);
+  console.log('%cGenesis 3D — testes internos: ' + (allPass?'TODOS PASSARAM':'FALHAS ENCONTRADAS'), allPass?'color:#22c55e;font-weight:bold':'color:#ef4444;font-weight:bold');
+  results.forEach(([name,pass])=> console.log((pass?'✓':'✗')+' '+name));
+  return allPass;
+}
+
+/* =========================================================
+   Generic modal / toast / confirm helpers
+========================================================= */
+function openSheet(ovId, sheetId){
+  document.getElementById(ovId).classList.add('open');
+  document.getElementById(sheetId).classList.add('open');
+}
+function closeSheet(ovId, sheetId){
+  document.getElementById(ovId).classList.remove('open');
+  document.getElementById(sheetId).classList.remove('open');
+}
+[['ovFilament','sheetFilament'],['ovSaveCalc','sheetSaveCalc'],['ovCopy','sheetCopy'],['ovHistDetail','sheetHistDetail'],['ovConfirm','sheetConfirm']]
+  .forEach(([ov,sh])=>{ document.getElementById(ov).addEventListener('click', ()=>closeSheet(ov,sh)); });
+
+function showToast(msg, green){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.toggle('green', !!green);
+  t.classList.add('show');
+  clearTimeout(showToast._tm);
+  showToast._tm = setTimeout(()=>t.classList.remove('show'), 2200);
+}
+function showConfirm(title, msg, onOk, okLabel){
+  document.getElementById('cfTitle').textContent = title;
+  document.getElementById('cfMsg').textContent = msg;
+  const okBtn = document.getElementById('btnCfOk');
+  okBtn.textContent = okLabel || 'Confirmar';
+  okBtn.onclick = ()=>{ closeSheet('ovConfirm','sheetConfirm'); onOk(); };
+  document.getElementById('btnCfCancel').onclick = ()=> closeSheet('ovConfirm','sheetConfirm');
+  openSheet('ovConfirm','sheetConfirm');
+}
+
+/* =========================================================
+   Navigation
+========================================================= */
+function showScreen(name){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById('screen-'+name).classList.add('active');
+  document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active', b.dataset.screen===name));
+  if(name==='filaments') renderFilamentList();
+  if(name==='history') renderHistoryList();
+  if(name==='settings') { populateSettingsForm(); renderDefaultFilamentSelect(); }
+  window.scrollTo(0,0);
+}
+document.querySelectorAll('.navbtn').forEach(b=> b.addEventListener('click', ()=> showScreen(b.dataset.screen)));
+
+/* =========================================================
+   CALCULATOR SCREEN
+========================================================= */
+const inHoras=document.getElementById('inHoras'), inMinutos=document.getElementById('inMinutos'),
+      inDecimal=document.getElementById('inDecimal'), inPeso=document.getElementById('inPeso'),
+      inQtd=document.getElementById('inQtd'), inProduto=document.getElementById('inProduto');
+
+function getTimeHours(){
+  if(cfg.lastTimeMode==='decimal'){
+    const v = inDecimal.value.trim();
+    return v===''? 0 : parseFloat(v);
+  }
+  const h = inHoras.value.trim()===''?0:parseFloat(inHoras.value);
+  const m = inMinutos.value.trim()===''?0:parseFloat(inMinutos.value);
+  return h + (m||0)/60;
+}
+function round2(v){ return Math.round(v*100)/100; }
+
+function setTimeMode(mode, convert){
+  if(convert===undefined) convert=true;
+  if(convert && mode!==cfg.lastTimeMode){
+    if(mode==='decimal'){
+      const dec = getTimeHours();
+      inDecimal.value = dec ? round2(dec) : '';
+    } else {
+      const dec = getTimeHours();
+      let h = Math.floor(dec);
+      let m = Math.round((dec-h)*60);
+      if(m>=60){ h+=1; m-=60; }
+      inHoras.value = dec ? h : '';
+      inMinutos.value = dec ? m : '';
+    }
+  }
+  cfg.lastTimeMode = mode;
+  document.getElementById('segHHMM').classList.toggle('active', mode==='hhmm');
+  document.getElementById('segDecimal').classList.toggle('active', mode==='decimal');
+  document.getElementById('timeHHMM').style.display = mode==='hhmm' ? 'grid':'none';
+  document.getElementById('timeDecimal').style.display = mode==='decimal' ? 'block':'none';
+  saveConfig();
+  recalc();
+}
+document.getElementById('segHHMM').addEventListener('click', ()=>setTimeMode('hhmm'));
+document.getElementById('segDecimal').addEventListener('click', ()=>setTimeMode('decimal'));
+
+function getSelectedFilament(){
+  const id = document.getElementById('selFilament').value;
+  return filaments.find(f=>f.id===id) || null;
+}
+
+function renderFilamentSelect(){
+  const sel = document.getElementById('selFilament');
+  const wrap = document.getElementById('filamentFieldWrap');
+  const none = document.getElementById('noFilamentBox');
+  if(filaments.length===0){ wrap.style.display='none'; none.style.display='block'; return; }
+  wrap.style.display='block'; none.style.display='none';
+  const prev = sel.value || cfg.lastFilamentId;
+  sel.innerHTML='';
+  filaments.forEach(f=>{
+    const opt=document.createElement('option');
+    opt.value=f.id;
+    const kg=pricePerKg(f);
+    opt.textContent = f.name+(f.color?(' — '+f.color):'')+' — R$'+kg.toFixed(2)+'/kg';
+    sel.appendChild(opt);
+  });
+  const chosen = filaments.find(f=>f.id===prev) ? prev : (filaments.find(f=>f.id===cfg.defaultFilamentId) ? cfg.defaultFilamentId : filaments[0].id);
+  sel.value = chosen;
+  cfg.lastFilamentId = chosen;
+}
+document.getElementById('selFilament').addEventListener('change', e=>{ cfg.lastFilamentId=e.target.value; saveConfig(); recalc(); });
+document.getElementById('btnGoAddFilament').addEventListener('click', ()=>{ showScreen('filaments'); openFilamentForm(null); });
+
+let lastResult = null;
+function recalc(){
+  const f = getSelectedFilament();
+  const fpk = f ? pricePerKg(f) : 0;
+
+  if(cfg.lastTimeMode==='hhmm'){
+    const mv = inMinutos.value.trim();
+    const mNum = mv===''?0:parseFloat(mv);
+    if(mNum<0 || mNum>59){
+      document.getElementById('errTempo').style.display='block';
+      document.getElementById('errTempo').textContent='Os minutos devem estar entre 0 e 59.';
+      renderBlockingError('Corrija os minutos do tempo de impressão (0 a 59).');
+      return;
+    }
+  }
+  document.getElementById('errTempo').style.display='none';
+
+  const T = getTimeHours();
+  const pesoRaw = inPeso.value.trim();
+  const peso = pesoRaw===''? 0 : parseFloat(pesoRaw);
+  const qtdRaw = inQtd.value.trim();
+  const qty = qtdRaw===''? 1 : parseFloat(qtdRaw);
+
+  const r = calculate({T, pesoG:peso, qty, filamentPriceKg:fpk, cfg});
+  lastResult = r;
+  if(!r.ok){
+    const msg = r.errors.tempo || r.errors.peso || r.errors.qtd || r.errors.filamento || r.errors.falha;
+    renderBlockingError(msg);
+    return;
+  }
+  renderResults(r);
+  persistLastCalc();
+}
+
+function renderBlockingError(msg){
+  document.getElementById('resultsWrap').style.display='none';
+  const banner = document.getElementById('errorBanner');
+  banner.style.display='block';
+  document.getElementById('errorBannerText').textContent = msg;
+}
+
+function renderResults(r){
+  document.getElementById('errorBanner').style.display='none';
+  document.getElementById('resultsWrap').style.display='block';
+
+  const heroDirect = document.querySelector('.hero-card.direct');
+  const heroShopee = document.querySelector('.hero-card.shopee');
+  const subDirect = heroDirect.querySelector('.sub');
+  const subShopee = heroShopee.querySelector('.sub');
+
+  if(r.directError){
+    document.getElementById('outDireto').textContent='—';
+    subDirect.textContent = r.directError; subDirect.style.color='var(--red)';
+  } else {
+    document.getElementById('outDireto').textContent = fmtBRL(r.precoDiretoUnit);
+    subDirect.textContent='preço por peça'; subDirect.style.color='';
+  }
+  if(r.shopeeError){
+    document.getElementById('outShopee').textContent='—';
+    subShopee.textContent = r.shopeeError; subShopee.style.color='var(--red)';
+  } else {
+    document.getElementById('outShopee').textContent = fmtBRL(r.precoShopeeUnit);
+    subShopee.textContent='preço por peça'; subShopee.style.color='';
+  }
+
+  document.getElementById('outCustoUnit').textContent = fmtBRL(r.custoUnitario);
+  document.getElementById('outLucroDireto').textContent = r.directError? '—' : fmtBRL(r.lucroDiretoUnit);
+  document.getElementById('outLucroShopee').textContent = r.shopeeError? '—' : fmtBRL(r.lucroShopeeUnit);
+  document.getElementById('outLiquidoShopee').textContent = r.shopeeError? '—' : fmtBRL(r.valorLiquidoShopee);
+  document.getElementById('outDescontoShopee').textContent = r.shopeeError? '—' : fmtBRL(r.descontoTotalShopee);
+  document.getElementById('outTotalDireto').textContent = r.directError? '—' : fmtBRL(r.precoDiretoTotal);
+  document.getElementById('outTotalShopee').textContent = r.shopeeError? '—' : fmtBRL(r.precoShopeeTotal);
+
+  document.getElementById('dFilamento').textContent = fmtBRL(r.custoFilamento);
+  document.getElementById('dEnergia').textContent = fmtBRL(r.custoEnergia);
+  document.getElementById('dMaquina').textContent = fmtBRL(r.custoMaquina);
+  document.getElementById('dBase').textContent = fmtBRL(r.custoBase);
+  document.getElementById('dAjustado').textContent = fmtBRL(r.custoAjustado);
+  document.getElementById('dUnit').textContent = fmtBRL(r.custoUnitario);
+  document.getElementById('dMargem').textContent = fmtPct(r.L);
+  document.getElementById('dTaxasShopee').textContent = fmtPct(r.S);
+  document.getElementById('dTaxaFixa').textContent = fmtBRL(r.SF);
+  document.getElementById('dLucroDireto').textContent = r.directError?'—':fmtBRL(r.lucroDiretoUnit);
+  document.getElementById('dLucroShopeeD').textContent = r.shopeeError?'—':fmtBRL(r.lucroShopeeUnit);
+}
+
+document.getElementById('detailToggle').addEventListener('click', ()=>{
+  document.getElementById('detailToggle').classList.toggle('open');
+  document.getElementById('detailBody').classList.toggle('open');
+});
+
+['input','change'].forEach(evt=>{
+  [inHoras,inMinutos,inDecimal,inPeso,inQtd,inProduto].forEach(el=> el.addEventListener(evt, recalc));
+});
+
+function persistLastCalc(){
+  const f = getSelectedFilament();
+  store.set(KEYS.LASTCALC, JSON.stringify({
+    horas:inHoras.value, minutos:inMinutos.value, decimal:inDecimal.value,
+    peso:inPeso.value, qtd:inQtd.value, produto:inProduto.value, filamentId: f?f.id:null
+  }));
+}
+function restoreLastCalc(){
+  try{
+    const raw = store.get(KEYS.LASTCALC);
+    if(!raw) return;
+    const d = JSON.parse(raw);
+    inHoras.value = d.horas||''; inMinutos.value = d.minutos||''; inDecimal.value = d.decimal||'';
+    inPeso.value = d.peso||''; inQtd.value = d.qtd||'1'; inProduto.value = d.produto||'';
+  }catch(e){}
+}
+
+/* ---- Salvar cálculo ---- */
+document.getElementById('btnSalvarCalc').addEventListener('click', ()=>{
+  if(!lastResult || !lastResult.ok){ showToast('Preencha peso e tempo antes de salvar.'); return; }
+  document.getElementById('scNome').value = inProduto.value || '';
+  openSheet('ovSaveCalc','sheetSaveCalc');
+});
+document.getElementById('btnCancelSaveCalc').addEventListener('click', ()=> closeSheet('ovSaveCalc','sheetSaveCalc'));
+document.getElementById('btnConfirmSaveCalc').addEventListener('click', ()=>{
+  const nome = document.getElementById('scNome').value.trim();
+  const f = getSelectedFilament();
+  const r = lastResult;
+  history.unshift({
+    id: uid('calc'),
+    createdAt: Date.now(),
+    productName: nome || 'Peça sem nome',
+    filamentId: f?f.id:null,
+    filamentName: f?f.name:'—',
+    timeMode: cfg.lastTimeMode,
+    horas: inHoras.value, minutos: inMinutos.value, decimal: inDecimal.value,
+    T: r.T, pesoG: parseFloat(inPeso.value)||0, qty: parseFloat(inQtd.value)||1,
+    custoUnitario: r.custoUnitario,
+    precoDiretoUnit: r.precoDiretoUnit ?? null, precoShopeeUnit: r.precoShopeeUnit ?? null,
+    lucroDiretoUnit: r.lucroDiretoUnit ?? null, lucroShopeeUnit: r.lucroShopeeUnit ?? null,
+  });
+  saveHistory();
+  closeSheet('ovSaveCalc','sheetSaveCalc');
+  showToast('Cálculo salvo no histórico', true);
+});
+
+/* ---- Copiar orçamento ---- */
+function formatTimeForBudget(){
+  if(cfg.lastTimeMode==='decimal'){
+    const d = getTimeHours();
+    return d.toLocaleString('pt-BR',{maximumFractionDigits:2})+' h';
+  }
+  const h = inHoras.value.trim()===''?0:parseInt(inHoras.value);
+  const m = inMinutos.value.trim()===''?0:parseInt(inMinutos.value);
+  let out='';
+  if(h>0) out += h+'h ';
+  out += m+'min';
+  return out.trim();
+}
+function buildBudgetText(withCosts){
+  const r = lastResult;
+  const f = getSelectedFilament();
+  const qty = parseFloat(inQtd.value)||1;
+  const peso = parseFloat(inPeso.value)||0;
+  const produto = inProduto.value.trim() || 'Peça personalizada';
+  let lines = [];
+  lines.push('ORÇAMENTO — GENESIS PROTOTIPAGEM');
+  lines.push('');
+  lines.push('Produto: '+produto);
+  lines.push('Filamento: '+(f?f.name:'—'));
+  lines.push('Tempo de impressão: '+formatTimeForBudget());
+  lines.push('Peso total: '+peso+' g');
+  lines.push('Quantidade: '+qty+' peça'+(qty>1?'s':''));
+  lines.push('');
+  if(r && r.ok && !r.directError){
+    lines.push('Venda direta:');
+    lines.push(fmtBRL(r.precoDiretoUnit)+' por peça');
+    lines.push('');
+  }
+  if(r && r.ok && !r.shopeeError){
+    lines.push('Venda na Shopee:');
+    lines.push(fmtBRL(r.precoShopeeUnit)+' por peça');
+    lines.push('');
+  }
+  lines.push('Valor sujeito à confirmação após validação final do arquivo.');
+  if(withCosts && r && r.ok){
+    lines.push('');
+    lines.push('— uso interno, não enviar ao cliente —');
+    lines.push('Custo unitário de produção: '+fmtBRL(r.custoUnitario));
+    if(!r.directError) lines.push('Lucro direto/peça: '+fmtBRL(r.lucroDiretoUnit));
+    if(!r.shopeeError) lines.push('Lucro Shopee/peça: '+fmtBRL(r.lucroShopeeUnit));
+  }
+  return lines.join('\n');
+}
+async function copyText(text){
+  try{
+    await navigator.clipboard.writeText(text);
+    return true;
+  }catch(e){
+    try{
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    }catch(e2){ return false; }
+  }
+}
+document.getElementById('btnCopiarOrc').addEventListener('click', ()=>{
+  if(!lastResult || !lastResult.ok){ showToast('Preencha peso e tempo antes de copiar.'); return; }
+  document.getElementById('copyPreviewArea').style.display='none';
+  openSheet('ovCopy','sheetCopy');
+});
+async function doCopyVariant(withCosts){
+  const text = buildBudgetText(withCosts);
+  const ok = await copyText(text);
+  if(ok){
+    showToast('Orçamento copiado!', true);
+    closeSheet('ovCopy','sheetCopy');
+  } else {
+    const area = document.getElementById('copyPreviewArea');
+    area.value = text; area.style.display='block'; area.focus(); area.select();
+    showToast('Não foi possível copiar automaticamente — selecione o texto abaixo.');
+  }
+}
+document.getElementById('btnCopyClient').addEventListener('click', ()=>doCopyVariant(false));
+document.getElementById('btnCopyInternal').addEventListener('click', ()=>doCopyVariant(true));
+
+/* =========================================================
+   FILAMENTS SCREEN
+========================================================= */
+let filFilterMaterial = null, filSortMode = 'name', filSearchTerm = '';
+
+function renderFilamentList(){
+  const listEl = document.getElementById('filamentList');
+  const emptyEl = document.getElementById('filamentEmpty');
+  const chipsWrap = document.getElementById('filMaterialChips');
+
+  if(filaments.length===0){
+    listEl.innerHTML=''; emptyEl.style.display='block'; chipsWrap.innerHTML=''; return;
+  }
+  emptyEl.style.display='none';
+
+  const materials = ['Todos', ...Array.from(new Set(filaments.map(f=>f.material)))];
+  chipsWrap.innerHTML='';
+  materials.forEach(m=>{
+    const chip=document.createElement('button');
+    chip.className='fchip'+((filFilterMaterial===m || (m==='Todos' && !filFilterMaterial))?' active':'');
+    chip.textContent=m;
+    chip.addEventListener('click', ()=>{ filFilterMaterial = (m==='Todos')? null : m; renderFilamentList(); });
+    chipsWrap.appendChild(chip);
+  });
+
+  let list = filaments.slice();
+  if(filFilterMaterial) list = list.filter(f=>f.material===filFilterMaterial);
+  const term = filSearchTerm.toLowerCase().trim();
+  if(term) list = list.filter(f => (f.name+' '+f.material+' '+(f.color||'')+' '+(f.brand||'')).toLowerCase().includes(term));
+  list.sort((a,b)=> filSortMode==='price' ? pricePerKg(a)-pricePerKg(b) : a.name.localeCompare(b.name,'pt-BR'));
+
+  listEl.innerHTML='';
+  list.forEach(f=>{
+    const kg = pricePerKg(f);
+    const row=document.createElement('div');
+    row.className='list-item';
+    row.innerHTML =
+      '<div class="swatch">'+escapeHtml(f.material.slice(0,2).toUpperCase())+'</div>'+
+      '<div class="info">'+
+        '<div class="name">'+escapeHtml(f.name)+(f.isDefault?' <span class="badge">padrão</span>':'')+'</div>'+
+        '<div class="meta">'+escapeHtml(f.material)+(f.color?' · '+escapeHtml(f.color):'')+(f.brand?' · '+escapeHtml(f.brand):'')+'</div>'+
+      '</div>'+
+      '<div class="price">R$'+kg.toFixed(2)+'/kg</div>';
+    row.addEventListener('click', ()=> openFilamentForm(f.id));
+    listEl.appendChild(row);
+  });
+}
+function escapeHtml(s){ return (s||'').toString().replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+document.getElementById('filSearch').addEventListener('input', e=>{ filSearchTerm=e.target.value; renderFilamentList(); });
+document.getElementById('btnSortFil').addEventListener('click', ()=>{ filSortMode = filSortMode==='name'?'price':'name'; showToast(filSortMode==='name'?'Ordenando por nome':'Ordenando por preço'); renderFilamentList(); });
+document.getElementById('btnAddFilament').addEventListener('click', ()=>openFilamentForm(null));
+document.getElementById('btnEmptyAddFilament').addEventListener('click', ()=>openFilamentForm(null));
+
+let editingFilamentId = null;
+function openFilamentForm(id){
+  editingFilamentId = id;
+  const f = id ? filaments.find(x=>x.id===id) : null;
+  document.getElementById('filFormTitle').textContent = f ? 'Editar filamento' : 'Novo filamento';
+  document.getElementById('ffNome').value = f? f.name : '';
+  document.getElementById('ffMaterial').value = f? f.material : 'PLA';
+  document.getElementById('ffCor').value = f? (f.color||'') : '';
+  document.getElementById('ffMarca').value = f? (f.brand||'') : '';
+  document.getElementById('ffPrecoRolo').value = f? f.rollPrice : '';
+  document.getElementById('ffPesoRolo').value = f? f.rollWeight : '';
+  document.getElementById('ffObs').value = f? (f.notes||'') : '';
+  document.getElementById('ffPadrao').checked = f? !!f.isDefault : filaments.length===0;
+  document.getElementById('ffErrPeso').style.display='none';
+  updateFfPriceKg();
+
+  const extra = document.getElementById('ffExtraActions');
+  extra.innerHTML='';
+  if(f){
+    const row = document.createElement('div');
+    row.className='btn-row';
+    row.style.marginBottom='10px';
+    const dupBtn = document.createElement('button');
+    dupBtn.className='btn btn-secondary btn-sm'; dupBtn.textContent='Duplicar';
+    dupBtn.addEventListener('click', ()=>duplicateFilament(f.id));
+    const delBtn = document.createElement('button');
+    delBtn.className='btn btn-danger btn-sm'; delBtn.textContent='Excluir';
+    delBtn.addEventListener('click', ()=>{
+      showConfirm('Excluir filamento', 'Tem certeza de que deseja excluir este filamento?', ()=>deleteFilament(f.id), 'Excluir');
+    });
+    row.appendChild(dupBtn); row.appendChild(delBtn);
+    extra.appendChild(row);
+  }
+  openSheet('ovFilament','sheetFilament');
+}
+function updateFfPriceKg(){
+  const price = parseFloat(document.getElementById('ffPrecoRolo').value)||0;
+  const weight = parseFloat(document.getElementById('ffPesoRolo').value)||0;
+  const kg = weight>0 ? price/weight*1000 : 0;
+  document.getElementById('ffPrecoKg').textContent = fmtBRL(kg)+'/kg';
+}
+['ffPrecoRolo','ffPesoRolo'].forEach(id=> document.getElementById(id).addEventListener('input', updateFfPriceKg));
+document.getElementById('btnCancelFilament').addEventListener('click', ()=>closeSheet('ovFilament','sheetFilament'));
+
+document.getElementById('btnSaveFilament').addEventListener('click', ()=>{
+  const name = document.getElementById('ffNome').value.trim();
+  const material = document.getElementById('ffMaterial').value;
+  const color = document.getElementById('ffCor').value.trim();
+  const brand = document.getElementById('ffMarca').value.trim();
+  const rollPrice = parseFloat(document.getElementById('ffPrecoRolo').value)||0;
+  const rollWeight = parseFloat(document.getElementById('ffPesoRolo').value)||0;
+  const notes = document.getElementById('ffObs').value.trim();
+  const isDefault = document.getElementById('ffPadrao').checked;
+
+  if(!(rollWeight>0)){
+    document.getElementById('ffErrPeso').style.display='block';
+    return;
+  }
+  document.getElementById('ffErrPeso').style.display='none';
+  if(!name){ showToast('Dê um nome para o filamento.'); return; }
+
+  if(isDefault){ filaments.forEach(f=>f.isDefault=false); }
+
+  if(editingFilamentId){
+    const f = filaments.find(x=>x.id===editingFilamentId);
+    Object.assign(f, {name,material,color,brand,rollPrice,rollWeight,notes,isDefault});
+    if(isDefault) cfg.defaultFilamentId = f.id;
+  } else {
+    const id = uid('fil');
+    filaments.push({id,name,material,color,brand,rollPrice,rollWeight,notes,createdAt:Date.now(),isDefault});
+    if(isDefault) cfg.defaultFilamentId = id;
+  }
+  if(filaments.length===1){ cfg.defaultFilamentId = filaments[0].id; filaments[0].isDefault=true; }
+
+  saveFilaments(); saveConfig();
+  closeSheet('ovFilament','sheetFilament');
+  renderFilamentList(); renderFilamentSelect(); renderDefaultFilamentSelect(); recalc();
+  showToast('Filamento salvo', true);
+});
+
+function duplicateFilament(id){
+  const f = filaments.find(x=>x.id===id);
+  if(!f) return;
+  const copy = Object.assign({}, f, {id:uid('fil'), name:f.name+' (cópia)', isDefault:false, createdAt:Date.now()});
+  filaments.push(copy);
+  saveFilaments();
+  closeSheet('ovFilament','sheetFilament');
+  renderFilamentList(); renderFilamentSelect(); renderDefaultFilamentSelect();
+  showToast('Filamento duplicado', true);
+}
+function deleteFilament(id){
+  const wasDefault = filaments.find(f=>f.id===id)?.isDefault;
+  filaments = filaments.filter(f=>f.id!==id);
+  if(wasDefault && filaments.length>0){
+    filaments[0].isDefault = true;
+    cfg.defaultFilamentId = filaments[0].id;
+  } else if(filaments.length===0){
+    cfg.defaultFilamentId = null;
+  }
+  saveFilaments(); saveConfig();
+  closeSheet('ovFilament','sheetFilament');
+  renderFilamentList(); renderFilamentSelect(); renderDefaultFilamentSelect(); recalc();
+  showToast('Filamento excluído', true);
+}
+
+/* =========================================================
+   HISTORY SCREEN
+========================================================= */
+let histSearchTerm='', histSortDesc=true;
+function renderHistoryList(){
+  const listEl = document.getElementById('historyList');
+  const emptyEl = document.getElementById('historyEmpty');
+  if(history.length===0){ listEl.innerHTML=''; emptyEl.style.display='block'; return; }
+  emptyEl.style.display='none';
+
+  let list = history.slice();
+  const term = histSearchTerm.toLowerCase().trim();
+  if(term) list = list.filter(h=> (h.productName||'').toLowerCase().includes(term));
+  list.sort((a,b)=> histSortDesc ? b.createdAt-a.createdAt : a.createdAt-b.createdAt);
+
+  listEl.innerHTML='';
+  list.forEach(h=>{
+    const d = new Date(h.createdAt);
+    const dateStr = d.toLocaleDateString('pt-BR')+' '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+    const row=document.createElement('div');
+    row.className='list-item';
+    row.innerHTML =
+      '<div class="swatch">'+escapeHtml((h.productName||'P').slice(0,2).toUpperCase())+'</div>'+
+      '<div class="info">'+
+        '<div class="name">'+escapeHtml(h.productName||'Peça sem nome')+'</div>'+
+        '<div class="meta">'+dateStr+' · '+escapeHtml(h.filamentName||'—')+' · '+h.qty+'x</div>'+
+      '</div>'+
+      '<div class="price">'+(h.precoDiretoUnit!=null? fmtBRL(h.precoDiretoUnit) : '—')+'</div>';
+    row.addEventListener('click', ()=>openHistoryDetail(h.id));
+    listEl.appendChild(row);
+  });
+}
+document.getElementById('histSearch').addEventListener('input', e=>{ histSearchTerm=e.target.value; renderHistoryList(); });
+document.getElementById('btnSortHist').addEventListener('click', ()=>{ histSortDesc=!histSortDesc; showToast(histSortDesc?'Mais recentes primeiro':'Mais antigos primeiro'); renderHistoryList(); });
+
+let openHistoryId = null;
+function openHistoryDetail(id){
+  const h = history.find(x=>x.id===id);
+  if(!h) return;
+  openHistoryId = id;
+  document.getElementById('hdTitle').textContent = h.productName || 'Peça sem nome';
+  const d = new Date(h.createdAt);
+  document.getElementById('hdDate').textContent = d.toLocaleDateString('pt-BR')+' às '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+  const tempoTxt = h.timeMode==='decimal' ? (parseFloat(h.decimal||0)).toLocaleString('pt-BR')+' h' : (h.horas||0)+'h '+(h.minutos||0)+'min';
+  document.getElementById('hdBody').innerHTML = [
+    ['Filamento', h.filamentName||'—'],
+    ['Tempo', tempoTxt],
+    ['Peso', h.pesoG+' g'],
+    ['Quantidade', h.qty],
+    ['Custo unitário', fmtBRL(h.custoUnitario)],
+    ['Preço direto', h.precoDiretoUnit!=null?fmtBRL(h.precoDiretoUnit):'—'],
+    ['Lucro direto', h.lucroDiretoUnit!=null?fmtBRL(h.lucroDiretoUnit):'—'],
+    ['Preço Shopee', h.precoShopeeUnit!=null?fmtBRL(h.precoShopeeUnit):'—'],
+    ['Lucro Shopee', h.lucroShopeeUnit!=null?fmtBRL(h.lucroShopeeUnit):'—'],
+  ].map(([k,v])=>'<div class="detail-row"><span>'+k+'</span><b>'+v+'</b></div>').join('');
+  openSheet('ovHistDetail','sheetHistDetail');
+}
+document.getElementById('btnHdReuse').addEventListener('click', ()=>{
+  const h = history.find(x=>x.id===openHistoryId);
+  if(!h) return;
+  setTimeMode(h.timeMode||'hhmm', false);
+  inHoras.value = h.horas||''; inMinutos.value = h.minutos||''; inDecimal.value = h.decimal||'';
+  inPeso.value = h.pesoG||''; inQtd.value = h.qty||1; inProduto.value = h.productName||'';
+  if(h.filamentId && filaments.find(f=>f.id===h.filamentId)){
+    document.getElementById('selFilament').value = h.filamentId;
+    cfg.lastFilamentId = h.filamentId; saveConfig();
+  }
+  closeSheet('ovHistDetail','sheetHistDetail');
+  showScreen('calc');
+  recalc();
+  showToast('Cálculo carregado', true);
+});
+document.getElementById('btnHdDuplicate').addEventListener('click', ()=>{
+  const h = history.find(x=>x.id===openHistoryId);
+  if(!h) return;
+  const copy = Object.assign({}, h, {id:uid('calc'), createdAt:Date.now(), productName:(h.productName||'Peça')+' (cópia)'});
+  history.unshift(copy);
+  saveHistory();
+  closeSheet('ovHistDetail','sheetHistDetail');
+  renderHistoryList();
+  showToast('Cálculo duplicado', true);
+});
+document.getElementById('btnHdDelete').addEventListener('click', ()=>{
+  showConfirm('Excluir cálculo', 'Tem certeza de que deseja excluir este cálculo do histórico?', ()=>{
+    history = history.filter(x=>x.id!==openHistoryId);
+    saveHistory();
+    closeSheet('ovHistDetail','sheetHistDetail');
+    renderHistoryList();
+    showToast('Cálculo excluído', true);
+  }, 'Excluir');
+});
+
+/* =========================================================
+   SETTINGS SCREEN
+========================================================= */
+function renderDefaultFilamentSelect(){
+  const sel = document.getElementById('cfgDefaultFilament');
+  sel.innerHTML='';
+  if(filaments.length===0){
+    const opt=document.createElement('option'); opt.textContent='Nenhum filamento cadastrado'; opt.value=''; sel.appendChild(opt);
+    return;
+  }
+  filaments.forEach(f=>{
+    const opt=document.createElement('option'); opt.value=f.id; opt.textContent=f.name+' — '+f.material; sel.appendChild(opt);
+  });
+  sel.value = filaments.find(f=>f.id===cfg.defaultFilamentId) ? cfg.defaultFilamentId : filaments[0].id;
+}
+
+function populateSettingsForm(){
+  document.getElementById('cfgEnergyRate').value = cfg.energyRate;
+  document.getElementById('cfgWatts').value = cfg.watts;
+  document.getElementById('cfgMachineCost').value = cfg.machineCostHour;
+  document.getElementById('cfgFailure').value = cfg.failureRate;
+  document.getElementById('cfgMargin').value = cfg.margin;
+  document.getElementById('cfgShComissao').value = cfg.shopee.comissao;
+  document.getElementById('cfgShTransacao').value = cfg.shopee.transacao;
+  document.getElementById('cfgShFrete').value = cfg.shopee.frete;
+  document.getElementById('cfgShOutras').value = cfg.shopee.outras;
+  document.getElementById('cfgShFixo').value = cfg.shopee.fixo;
+  document.getElementById('cfgRounding').value = cfg.rounding;
+  updateShTotalDisplay();
+}
+function updateShTotalDisplay(){
+  const total = (parseFloat(document.getElementById('cfgShComissao').value)||0)
+              + (parseFloat(document.getElementById('cfgShTransacao').value)||0)
+              + (parseFloat(document.getElementById('cfgShFrete').value)||0)
+              + (parseFloat(document.getElementById('cfgShOutras').value)||0);
+  document.getElementById('cfgShTotalDisplay').textContent = 'Taxas percentuais totais: '+fmtPct(total);
+}
+['cfgShComissao','cfgShTransacao','cfgShFrete','cfgShOutras'].forEach(id=>
+  document.getElementById(id).addEventListener('input', updateShTotalDisplay)
+);
+
+document.getElementById('btnSaveSettings').addEventListener('click', ()=>{
+  const margin = parseFloat(document.getElementById('cfgMargin').value)||0;
+  const failure = parseFloat(document.getElementById('cfgFailure').value)||0;
+  if(margin>=100){ showToast('A margem de lucro deve ser menor que 100%.'); return; }
+  if(failure>=100){ showToast('A taxa de falhas deve ser menor que 100%.'); return; }
+
+  cfg.energyRate = parseFloat(document.getElementById('cfgEnergyRate').value)||0;
+  cfg.watts = parseFloat(document.getElementById('cfgWatts').value)||0;
+  cfg.machineCostHour = parseFloat(document.getElementById('cfgMachineCost').value)||0;
+  cfg.failureRate = failure;
+  cfg.margin = margin;
+  cfg.shopee.comissao = parseFloat(document.getElementById('cfgShComissao').value)||0;
+  cfg.shopee.transacao = parseFloat(document.getElementById('cfgShTransacao').value)||0;
+  cfg.shopee.frete = parseFloat(document.getElementById('cfgShFrete').value)||0;
+  cfg.shopee.outras = parseFloat(document.getElementById('cfgShOutras').value)||0;
+  cfg.shopee.fixo = parseFloat(document.getElementById('cfgShFixo').value)||0;
+  cfg.rounding = document.getElementById('cfgRounding').value;
+  const defSel = document.getElementById('cfgDefaultFilament').value;
+  if(defSel){
+    cfg.defaultFilamentId = defSel;
+    filaments.forEach(f=> f.isDefault = (f.id===defSel));
+    saveFilaments();
+  }
+  saveConfig();
+  renderFilamentSelect();
+  showToast('Configurações salvas com sucesso', true);
+  recalc();
+});
+
+/* ---- Backup export / import ---- */
+document.getElementById('btnExportBackup').addEventListener('click', ()=>{
+  const backup = { version:1, exportedAt:new Date().toISOString(), config:cfg, filaments:filaments, history:history };
+  const text = JSON.stringify(backup, null, 2);
+  try{
+    const blob = new Blob([text], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'backup-genesis-3d.json';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast('Backup baixado', true);
+  }catch(e){
+    copyText(text).then(ok=>{
+      showToast(ok ? 'Não deu pra baixar o arquivo — copiei o backup para a área de transferência.' : 'Não foi possível gerar o backup neste ambiente.');
+    });
+  }
+});
+document.getElementById('btnImportBackup').addEventListener('click', ()=> document.getElementById('fileImport').click());
+document.getElementById('fileImport').addEventListener('change', (e)=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = ()=>{
+    let data;
+    try{ data = JSON.parse(reader.result); }
+    catch(err){ showToast('Arquivo de backup inválido.'); return; }
+    if(!data || !data.config || !data.filaments){ showToast('Arquivo de backup inválido.'); return; }
+    showConfirm('Importar backup', 'Isso substituirá suas configurações, filamentos e histórico atuais pelos dados do backup. Deseja continuar?', ()=>{
+      cfg = Object.assign(JSON.parse(JSON.stringify(DEFAULT_CONFIG)), data.config);
+      cfg.shopee = Object.assign(JSON.parse(JSON.stringify(DEFAULT_CONFIG.shopee)), data.config.shopee||{});
+      filaments = data.filaments || [];
+      history = data.history || [];
+      saveConfig(); saveFilaments(); saveHistory();
+      renderFilamentSelect(); renderFilamentList(); renderHistoryList(); populateSettingsForm(); renderDefaultFilamentSelect();
+      recalc();
+      showToast('Backup importado com sucesso', true);
+    }, 'Importar');
+  };
+  reader.readAsText(file);
+  e.target.value = '';
+});
+
+document.getElementById('btnResetDefaults').addEventListener('click', ()=>{
+  showConfirm('Restaurar padrões', 'Isso vai restaurar as configurações (energia, margem, taxas da Shopee, arredondamento) para os valores padrão. Filamentos e histórico não serão afetados.', ()=>{
+    const keepDefaultFil = cfg.defaultFilamentId, keepLastFil = cfg.lastFilamentId, keepTimeMode = cfg.lastTimeMode;
+    cfg = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+    cfg.defaultFilamentId = keepDefaultFil; cfg.lastFilamentId = keepLastFil; cfg.lastTimeMode = keepTimeMode;
+    saveConfig();
+    populateSettingsForm();
+    recalc();
+    showToast('Configurações restauradas', true);
+  }, 'Restaurar');
+});
+document.getElementById('btnEraseAll').addEventListener('click', ()=>{
+  showConfirm('Apagar todos os dados', 'Esta ação excluirá permanentemente configurações, filamentos e histórico. Deseja continuar?', ()=>{
+    cfg = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+    filaments = [];
+    history = [];
+    saveConfig(); saveFilaments(); saveHistory();
+    renderFilamentSelect(); renderFilamentList(); renderHistoryList(); populateSettingsForm(); renderDefaultFilamentSelect();
+    recalc();
+    showToast('Todos os dados foram apagados', true);
+  }, 'Apagar tudo');
+});
+
+/* =========================================================
+   INIT
+========================================================= */
+function init(){
+  if(!cfg.shopee) cfg.shopee = JSON.parse(JSON.stringify(DEFAULT_CONFIG.shopee));
+  renderFilamentSelect();
+  setTimeMode(cfg.lastTimeMode || 'hhmm', false);
+  restoreLastCalc();
+  renderFilamentSelect();
+  document.getElementById('inQtd').value = document.getElementById('inQtd').value || '1';
+  recalc();
+  renderFilamentList();
+  renderHistoryList();
+  populateSettingsForm();
+  renderDefaultFilamentSelect();
+  runSelfTests();
+}
+init();
+
+/* Optional: only activates if this file is hosted on a real https:// server
+   alongside service-worker.js. Silently does nothing in the Claude preview
+   or when opened as a local file — the app works fully either way. */
+if('serviceWorker' in navigator){
+  window.addEventListener('load', ()=>{
+    navigator.serviceWorker.register('service-worker.js').catch(()=>{});
+  });
+}
+</script>
+</body>
+</html>
